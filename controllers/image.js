@@ -1,5 +1,5 @@
 const handleApiCall = (req, res) => {
-    const PAT = 'PAT_Clarifai';
+    const PAT = PAT_Clarifai;
     const USER_ID = 'willy77229';
     const APP_ID = 'smart-brain';
     // Change these to whatever model and image URL you want to use
