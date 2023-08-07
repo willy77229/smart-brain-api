@@ -1,7 +1,7 @@
 import fetch from 'cross-fetch'; 
 
 const returnClarifaiRequestOptions = (imageUrl) => {
-    const PAT = 'process.env.PAT_Clarifai';
+    const PAT = process.env.PAT_Clarifai;
     const USER_ID = 'willy77229';
     const APP_ID = 'smart-brain';
     // Change these to whatever model and image URL you want to use
